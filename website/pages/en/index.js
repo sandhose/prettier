@@ -2,6 +2,7 @@
 
 const React = require("react");
 
+const AnimatedLogo = require(process.cwd() + "/core/AnimatedLogo.js");
 const CompLibrary = require("../../core/CompLibrary.js");
 // const Marked = CompLibrary.Marked; /* Used to read markdown */
 const Container = CompLibrary.Container;
@@ -37,10 +38,8 @@ class HomeSplash extends React.Component {
       <div className="homeContainer">
         <div className="homeSplashFade">
           <div className="wrapper homeWrapper">
-            <div className="projectLogo">
-              <img src="/icon.png" />
-            </div>
             <div className="inner">
+              <AnimatedLogo />
               <h2 className="projectTitle">
                 {siteConfig.title}
                 <small>{siteConfig.tagline}</small>

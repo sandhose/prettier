@@ -52,7 +52,7 @@ const siteConfig = {
     theme: "default"
   },
   useEnglishUrl: true,
-  scripts: ["https://buttons.github.io/buttons.js"],
+  scripts: ["https://buttons.github.io/buttons.js", "animated-logo.js"],
   algolia: {
     apiKey: process.env.ALGOLIA_PRETTIER_API_KEY,
     indexName: "prettier"

@@ -38,6 +38,24 @@
   font-weight: 400;
 }
 
+.homeContainer {
+  color: #FFF;
+  background-color: #1A2B34;
+}
+
+.homeContainer .projectTitle {
+  color: #FFF;
+}
+
+.homeContainer .button {
+  color: #FFF;
+  border-color: #FFF;
+}
+
+#animatedLogo {
+  margin: 20px 0;
+}
+
 pre {
   overflow-x: scroll;
 }
